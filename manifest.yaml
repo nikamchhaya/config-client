@@ -1,0 +1,6 @@
+applications:
+- name: springboot-ems-app
+  path: target\config-client.jar
+  memory: 1G
+  services:
+   - pvc-mysql
